@@ -26,7 +26,9 @@ export class Match {
 
     public getAwayTeam(): string { return this.awayTeam }
 
-    public getDate(): MatchDate { return this.date }
+    public getHour(): string { return this.date.getMatchHour() }
+
+    public getDay(): string { return this.date.getMatchDay() }
 
     public getChannel(): Channel { return this.channel }
 }
