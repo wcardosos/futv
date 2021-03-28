@@ -1,11 +1,9 @@
-import moment from 'moment';
-
+import { MatchDate } from '../tools/MatchDate';
 export class Match {
     constructor(
         private homeTeam: string,
         private awayTeam: string,
-        private date: moment.Moment,
-        private hour: moment.Moment,
+        private date: MatchDate,
         private channel: string
     ) {}
 
@@ -13,9 +11,7 @@ export class Match {
 
     public getAwayTeam(): string { return this.awayTeam }
 
-    public getDate(): moment.Moment { return this.date }
-
-    public getHour(): moment.Moment { return this.hour }
+    public getDate(): MatchDate { return this.date }
 
     public getChannel(): string { return this.channel }
 }
