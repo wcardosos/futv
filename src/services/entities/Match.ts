@@ -1,6 +1,6 @@
 import { MatchDate } from '../tools/MatchDate';
 
-enum Channel {
+export enum Channel {
     BAND = "Band",
     BANDSPORTS = "BandSports",
     ESPN = "ESPN",
@@ -31,4 +31,6 @@ export class Match {
     public getDay(): string { return this.date.getMatchDay() }
 
     public getChannel(): Channel { return this.channel }
+
+    public getWeek(): number { return this.date.getWeek() }
 }
