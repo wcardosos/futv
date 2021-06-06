@@ -4,11 +4,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>FuTV</title>
       </Head>
 
       <h1>FuTV</h1>
+      <p>Site funcionando</p>
     </div>
   )
 }
