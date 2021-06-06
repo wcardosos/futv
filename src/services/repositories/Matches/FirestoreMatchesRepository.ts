@@ -19,6 +19,7 @@ export class FirestoreMatchesRepository implements IMatchesRepository {
         const matches = [];
 
         matchesList.forEach( match => {
+            const id = match.ref.id
             const homeTeam = match.data().homeTeam;
             const awayTeam = match.data().awayTeam;
             const hour = match.data().hour;
@@ -40,6 +41,7 @@ export class FirestoreMatchesRepository implements IMatchesRepository {
             const date = new MatchDate(dateTime);
 
             matches.push(new Match(
+                id,
                 homeTeam,
                 awayTeam,
                 date,

@@ -16,11 +16,14 @@ export enum Channel {
 }
 export class Match {
     constructor(
+        private readonly id: string,
         private homeTeam: string,
         private awayTeam: string,
         private date: MatchDate,
         private channel: Channel
     ) {}
+
+    public getId(): string { return this.id }
 
     public getHomeTeam(): string { return this.homeTeam }
 
