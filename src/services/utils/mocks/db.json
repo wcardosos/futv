@@ -1,0 +1,46 @@
+{
+    "matches": [
+        {
+            "id":"15fbae33-eb54-4199-9000-72e9eede3fb9",
+            "date": "2021-06-06 15:30:00",
+            "channel": "SporTV 2",
+            "home_team": "Ponte Preta",
+            "away_team": "Vasco"
+        },
+        {
+            "id": "1d730385-b692-42b6-8060-c749f9247f6a",
+            "date": "2021-06-06 10:45:00",
+            "channel": "Premiere",
+            "home_team": "Fluminense",
+            "away_team": "Cuiabá"
+        },
+        {
+            "id": "1271ee9f-b458-4fd7-97e6-1ee968c1d66a",
+            "date": "2021-06-06 15:30:00",
+            "channel": "SporTV",
+            "home_team": "América MG",
+            "away_team": "Corinthians"
+        },
+        {
+            "id": "0ff530fe-ac18-4986-b0bd-9218ebbce3f8",
+            "date": "2021-06-06 15:55:00",
+            "channel": "ESPN Brasil",
+            "home_team": "Leganes",
+            "away_team": "Rayo Vallecano"
+        },
+        {
+            "id": "d147a5a4-6931-4973-ae2b-257b3f4d550a",
+            "date": "2021-06-06 18:00:00",
+            "channel": "Premiere",
+            "home_team": "Palmeiras",
+            "away_team": "Chapecoense"
+        },
+        {
+            "id": "7ef36ded-8efe-4857-9e33-b1dd9739e34a",
+            "date": "2021-06-06 20:00:00",
+            "channel": "SporTV",
+            "home_team": "Sport",
+            "away_team": "Atlético MG"
+        }
+    ]
+}

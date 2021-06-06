@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "db:mock": "npx json-server --watch src/services/utils/mocks/db.json --port 3005"
   },
   "dependencies": {
     "chrome-aws-lambda": "^8.0.0",
